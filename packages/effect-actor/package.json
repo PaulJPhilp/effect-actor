@@ -28,13 +28,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/effect-actor.git"
+    "url": "https://github.com/PaulJPhilp/effect-actor.git"
   },
-  "homepage": "https://github.com/yourusername/effect-actor#readme",
+  "homepage": "https://github.com/PaulJPhilp/effect-actor#readme",
   "bugs": {
-    "url": "https://github.com/yourusername/effect-actor/issues"
+    "url": "https://github.com/PaulJPhilp/effect-actor/issues"
   },
-  "author": "Your Name",
+  "author": "Paul J. Philp",
   "license": "MIT",
   "scripts": {
     "dev": "vitest",
