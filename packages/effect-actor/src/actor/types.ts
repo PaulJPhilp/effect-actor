@@ -1,3 +1,5 @@
+import { Effect } from "effect";
+
 /**
  * Command to execute on an actor
  */
@@ -46,3 +48,15 @@ export type QueryFilter = {
 	updatedAfter?: Date;
 	updatedBefore?: Date;
 };
+
+/**
+ * Reference to an actor that can receive messages
+ */
+export interface ActorRef<M, R = never> {
+	/**
+	 * Send a message to the actor
+	 * @param message - The message to send
+	 * @returns Effect that completes when message is processed
+	 */
+	send(message: M): Effect.Effect<void, Error, R>;
+}

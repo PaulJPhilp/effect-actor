@@ -1,3 +1,5 @@
 // Actor module exports
-export * from "./types.js";
+export * from "./actor.js";
 export * from "./service.js";
+export * from "./types.js";
+
