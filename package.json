@@ -1,0 +1,27 @@
+{
+  "name": "@effect-actor/monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "bun@1.3.1",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "test": "turbo run test",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "format": "turbo run format",
+    "clean": "turbo run clean && rm -rf node_modules",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "biome": "latest",
+    "husky": "latest",
+    "lint-staged": "latest",
+    "turbo": "latest",
+    "typescript": "latest"
+  }
+}
