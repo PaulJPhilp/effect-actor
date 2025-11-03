@@ -1,4 +1,4 @@
-# effect-actor
+# @pauljphilp/effect-actor
 
 Effect-native state machine orchestration framework.
 
