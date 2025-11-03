@@ -1,5 +1,5 @@
 {
-  "name": "@pauljphilp/effect-actor",
+  "name": "effect-actor-pauljphilp",
   "version": "0.1.0",
   "description": "Effect-native state machine orchestration framework",
   "type": "module",

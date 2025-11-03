@@ -22,7 +22,7 @@ effect-actor is a powerful, type-safe actor orchestration framework built native
 ## Installation
 
 ```bash
-npm install @pauljphilp/effect-actor
+npm install effect-actor-pauljphilp
 # or
 bun add effect-actor
 # or
@@ -41,8 +41,8 @@ bun add effect
 
 ```typescript
 import { Effect } from "effect";
-import { createActorSpec } from "@pauljphilp/effect-actor/spec";
-import { ActorService } from "@pauljphilp/effect-actor/actor";
+import { createActorSpec } from "effect-actor-pauljphilp/spec";
+import { ActorService } from "effect-actor-pauljphilp/actor";
 
 // Define your state machine
 const TodoSpec = createActorSpec({
